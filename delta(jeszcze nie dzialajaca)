@@ -9,19 +9,19 @@ using namespace std;
 int main()
 {
 	int a,b,c,del;
-cout << "\t \t nie umiem into wizual \n";
-cout << "\t \t ale zrobilem kalkulator delty \n";
-cout << "\t \t no to podaj najpierw a \n";
+cout << " \t nie umiem into wizual \n";
+cout << " \t ale zrobilem kalkulator delty \n";
+cout << " \t no to podaj najpierw a \n";
 cin >> a;
-cout << "\t \t to teraz podaj b \n";
+cout << " \t to teraz podaj b \n";
 cin >> b;
-cout << "\t \t to teraz podaj c \n";
+cout << " \t to teraz podaj c \n";
 cin >> c;
-if (a > 0 || b > 0 || c > 0) {
-
-	del:(double (b) - (4 *a*c));
-	cin >> del;
-	cout << "/t /t Delta z liczb",a, b, c, "wynosi",del;
+if (a > 0 || b > 0 || c > 0) 
+{
+	del:((b*b) - (4 *a*c));
+	cout << "\t delta wynosi:",del;
+	return 0;
 }
 else{
 	cout << "cos spierdoliles";
