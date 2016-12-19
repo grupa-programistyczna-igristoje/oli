@@ -1,30 +1,54 @@
-//igrostoje social club//
-
-#include "stdafx.h" //nie wiem po jaki huj to//
-#include <iostream> //standardowo//
-#include <math.h> //dzialania//
-#include <cstdlib> //do systemu//
-
+//wkurwiony oli z vloga igristrojevlog pierdoli visuala bo działa za pierwszym razem w c::b//
+//also igristroje social club//
+#include <iostream>
+#include <math.h>
+#include <cstdlib>
 using namespace std;
-int main()
+
+int main(int argc, char *argv[]) //za chuja nie wiem co to ale nauczylem sie to pisac
+
 {
-	int a,b,c,del;
-cout << " \t nie umiem into wizual \n";
-cout << " \t ale zrobilem kalkulator delty \n";
-cout << " \t no to podaj najpierw a \n";
-cin >> a;
-cout << " \t to teraz podaj b \n";
-cin >> b;
-cout << " \t to teraz podaj c \n";
-cin >> c;
-if (a > 0 || b > 0 || c > 0) 
-{
-	del:((b*b) - (4 *a*c));
-	cout << "\t delta wynosi:",del;
-	return 0;
-}
-else{
-	cout << "cos spierdoliles";
-}
-return 0;
+    double a,b,c,delta,x0,x1,x2;
+    cout << "\t Ile dalbym by zapomniec Cie, wszystkie chwile te, ktore sa na nie \n"<<endl;
+    cout << "\t \t \t \t bo chce(bo chce) \n"<<endl;
+    cout<<"\t  \t \t   \t  podaj 1 liczbe\n"<<endl;
+     cin>>a;
+
+    cout<<"\t \t \t    \t podaj 2 liczbe\n"<<endl;
+     cin>>b;
+    cout<<"\t \t \t \t podaj 3 liczbe\n"<<endl;
+     cin>>c;
+    if(a==0) cout<<"\t \t \t \t To nie jest rownanie kwadratowe\n"<<endl;
+    else
+     {
+       delta = (b*b)-(4*a*c);
+       cout<<"\t \t \t \t delta wynosi"<<delta<<endl<<endl;
+       if (delta>0)
+        {
+         if (b>=0)
+          {
+           x1=(-b-sqrt(delta))/(2*a);
+           x2=(c/a)/x1;
+          }
+      else
+       {
+        x2=(-b+sqrt(delta))/(2*a);
+        x1=(c/a)/x2;
+        }
+        cout<<"\t \t \t \t Pierwiastki rownania kwadratowego wynosza "<<x1<<x2<<endl<<endl;
+      }
+      else
+       {
+       if (delta == 0)
+        {
+        x0=-b/(2*a);
+        cout<<"\t \t \t \t Pierwiastek rownania kwadratowego wynosi"<<x0<<endl<<endl;
+        }
+
+       else
+       cout<<"\t \t \t \t Rownanie nie ma pierwiastkow\n"<<endl;
+       }
+     }
+    system("PAUSE");
+    return EXIT_SUCCESS;
 }
