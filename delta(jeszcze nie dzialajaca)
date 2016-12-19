@@ -1,0 +1,30 @@
+//igrostoje social club//
+
+#include "stdafx.h" //nie wiem po jaki huj to//
+#include <iostream> //standardowo//
+#include <math.h> //dzialania//
+#include <cstdlib> //do systemu//
+
+using namespace std;
+int main()
+{
+	int a,b,c,del;
+cout << "\t \t nie umiem into wizual \n";
+cout << "\t \t ale zrobilem kalkulator delty \n";
+cout << "\t \t no to podaj najpierw a \n";
+cin >> a;
+cout << "\t \t to teraz podaj b \n";
+cin >> b;
+cout << "\t \t to teraz podaj c \n";
+cin >> c;
+if (a > 0 || b > 0 || c > 0) {
+
+	del:(double (b) - (4 *a*c));
+	cin >> del;
+	cout << "/t /t Delta z liczb",a, b, c, "wynosi",del;
+}
+else{
+	cout << "cos spierdoliles";
+}
+return 0;
+}
