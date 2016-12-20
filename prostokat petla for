@@ -1,7 +1,7 @@
     #include <cstdlib>
     #include <iostream>
     using namespace std;
-     int main(int argc, char *argv[])
+     int main(int argc, char *argv[]) // no i po chuj ci te argc i argv co
      {
     int w,s;
     char x;
