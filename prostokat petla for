@@ -1,0 +1,22 @@
+    #include <cstdlib>
+    #include <iostream>
+    using namespace std;
+     int main(int argc, char *argv[])
+     {
+    int w,s;
+    char x;
+    cout<<"\t \t super program rysujacy prostokat z gwiazdeczek avira plz"<<endl;
+    cout<<"\t \t podaj wysokosc \n"<<endl;
+    cin>>w;
+    cout<<"\t \t podaj szerokosc \n"<<endl;
+    cin>>s;
+
+       for (int i=1; i<=w; i++){
+             for (int j=1; j<=s; j++){
+             cout << "*";
+    			  }
+
+    		 cout<<"\n";
+             }
+        system("PAUSE");
+    }
