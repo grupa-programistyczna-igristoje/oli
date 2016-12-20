@@ -5,7 +5,7 @@
 #include <cstdlib>
 using namespace std;
 
-int main(int argc, char *argv[]) //za chuja nie wiem co to ale nauczylem sie to pisac
+int main(int argc, char *argv[]) //(za chuja nie wiem co to ale nauczylem sie to pisac)argc zawiera ilość napisanych rzeczy przez użytkownika, a w argv masz zapisane w tablicy co napisał użytkownik
 
 {
     double a,b,c,delta,x0,x1,x2;
