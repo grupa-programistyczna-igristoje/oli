@@ -19,4 +19,4 @@
     		 cout<<"\n";
              }
         system("PAUSE"); //(elvis)po co używasz pause, skoro napisałem na konferencji jak zrobić żeby się nie zamykało
-    }
+    }                       //(olo)przynajmniej się chwali wiedzą
