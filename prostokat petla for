@@ -12,11 +12,11 @@
     cin>>s;
 
        for (int i=1; i<=w; i++){
-             for (int j=1; j<=s; j++){ //a co jeśli wysokość będzie mniejsza od szerokości?
+             for (int j=1; j<=s; j++){ //(elvis)a co jeśli wysokość będzie mniejsza od szerokości? edit: już nic
              cout << "*";
     			  }
 
     		 cout<<"\n";
              }
-        system("PAUSE");
+        system("PAUSE"); //(elvis)po co używasz pause, skoro napisałem na konferencji jak zrobić żeby się nie zamykało
     }
