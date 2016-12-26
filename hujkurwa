@@ -22,9 +22,8 @@ cout <<a,a--;
 
 
 getch();
-system("cls");
-goto poczatek;
-
+system("cls"); // ZA TO BĘDĄ BANY I TYLE
+goto poczatek; // ZA TO TEŻ
 
 
 
