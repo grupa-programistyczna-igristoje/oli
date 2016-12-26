@@ -3,7 +3,7 @@
 #include <cstdlib>
 using namespace std;
 int a;
-main(){
+int main(){ //no musi być int przecież jak zmienna (funkcja) bez inicjacji co kurwa jak to jest
 poczatek:
 cout << "wpisz swoja liczbe: ";
 cin >> a;
