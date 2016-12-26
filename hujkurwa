@@ -1,0 +1,32 @@
+#include <iostream>
+#include <conio.h>
+#include <cstdlib>
+using namespace std;
+int a;
+main(){
+poczatek:
+cout << "wpisz swoja liczbe: ";
+cin >> a;
+if (a%2==0)
+        cout << "wpisana liczba jest parzysta" << endl;
+else
+        cout << "wpisana liczba jest nieparzysta" << endl;
+if (a>=0)
+            cout<<"wpisana liczba jest dodatnia"<<endl;
+else
+            cout<<"wpisana liczba jest ujemna"<<endl;
+
+            for(int i=0 ; i=a; i++)
+cout <<a,a--;
+
+
+
+getch();
+system("cls");
+goto poczatek;
+
+
+
+
+}
+
