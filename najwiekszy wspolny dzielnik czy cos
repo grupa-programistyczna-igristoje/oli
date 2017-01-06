@@ -1,0 +1,18 @@
+    #include<iostream>
+    using namespace std;
+    int main() {
+    	int pierwsza;
+    	cout<<"wprowadz pierwsza liczbe dodatnia:  ";
+    	cin>>pierwsza;
+    	int  druga;
+    	cout<<"wprowadz druga dodatnia:   ";
+    	cin>>druga;
+    	int  nwd;
+    	for (int i=1;i<=pierwsza&&i<=druga;i++) {
+    		if(pierwsza%i==0 && druga%i == 0 ) {   
+    			nwd=i;
+    		}
+    	}
+    	cout<<"Najwiekszy wspolny dzielnik: "<<nwd<<endl;
+    	return 0;
+    }
