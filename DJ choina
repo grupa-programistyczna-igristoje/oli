@@ -1,0 +1,34 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+int petla(){                                           //napierdalam funkcje tera wszedzie
+    char znak;
+	int i, j;
+	int x = 5;
+    int y = 1;                                            //gdzies tutaj dodam jeszcze wlasna ilosc poziomow bo ide spac wlasnie
+        cout<<"z czego ma sie skladac dj choina: "<<endl;
+cin>>znak;
+system("cls");
+for(j = 1; j <= 5; j++)
+	{
+	   for(i = 1; i <= x; i++)
+	   {
+	      cout << " ";
+	   }
+           x--;
+
+	   for(i = 1; i <= y; i++)
+	   {
+		  cout << znak;
+	   }
+	   y += 2;
+	   cout << endl;
+	}
+	}
+int main()
+{
+petla();
+	cout<<"\t\t:3"<<endl;
+}
+
+
