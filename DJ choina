@@ -2,6 +2,7 @@
 #include <cstdlib>
 using namespace std;
 int petla(){                                           //napierdalam funkcje tera wszedzie
+							//elvis_edit: dajesz tego inta, a nic nie zwraca, zamień na voida
     char znak;
 	int i, j;
 	int x = 5;
@@ -28,7 +29,7 @@ for(j = 1; j <= 5; j++)
 int main()
 {
 petla();
-	cout<<"\t\t:3"<<endl;
+	cout<<"\t\t:3"<<endl;	//elvis_edit: program wyłącza się po wykonaniu, na tym poziomie jest to niedopuszczalne
 }
-
+//elvis_edit: no czwóreczka nie
 
