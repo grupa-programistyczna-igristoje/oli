@@ -1,20 +1,23 @@
 #include <iostream>
 #include <cstdlib>
+#include <windows.h>
 using namespace std;
-int petla(){                                           //napierdalam funkcje tera wszedzie
-							//elvis_edit: dajesz tego inta, a nic nie zwraca, zamień na voida
+int petla(){
+    int poziomy;
     char znak;
 	int i, j;
 	int x = 5;
-    int y = 1;                                            //gdzies tutaj dodam jeszcze wlasna ilosc poziomow bo ide spac wlasnie
+    int y = 1;
         cout<<"z czego ma sie skladac dj choina: "<<endl;
-cin>>znak;
+        cin>>znak;
+cout<<"ile poziomow ma miec twoja choina:   "<<endl;
+cin>>poziomy;
 system("cls");
-for(j = 1; j <= 5; j++)
+for(j = 1; j <=poziomy ; j++)
 	{
 	   for(i = 1; i <= x; i++)
 	   {
-	      cout << " ";
+	      cout << " ";         //IMO cos tutaj nie gra
 	   }
            x--;
 
@@ -29,7 +32,11 @@ for(j = 1; j <= 5; j++)
 int main()
 {
 petla();
-	cout<<"\t\t:3"<<endl;	//elvis_edit: program wyłącza się po wykonaniu, na tym poziomie jest to niedopuszczalne
-}
-//elvis_edit: no czwóreczka nie
+for (;;){
+        Sleep(2000);
+        system("cls");
 
+    return petla();
+
+}
+}
