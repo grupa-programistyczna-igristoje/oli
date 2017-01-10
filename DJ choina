@@ -40,3 +40,56 @@ for (;;){
 
 }
 }
+
+/* #include <iostream>
+#include <cstdlib>
+#include <windows.h>
+
+	using namespace std;
+
+void petla() {
+	
+	int poziomy;
+	char znak;
+	
+	int i, j;
+	int x = 5;
+	int y = 1;
+
+	cout << "z czego ma sie skladac dj choina: " << endl;
+	cin >> znak;
+	cout << "ile poziomow ma miec twoja choina:   " << endl;
+	cin >> poziomy;												//przy 7 sie pierdoli juz
+	
+	system("cls");
+	
+	for (j = 1; j <= poziomy; j++)
+	{
+		for (i = 1; i <= x; i++)
+		{
+			cout << " ";         //IMO cos tutaj nie gra
+		}
+		x--;
+
+		for (i = 1; i <= y; i++)
+		{
+			cout << znak;
+		}
+		y += 2;
+		cout << endl;
+	}
+}
+int main()
+{
+	petla();
+	
+	for (;;) {
+		Sleep(2000);
+		system("cls");
+
+		return petla();
+	}
+} */
+
+//edit: czytelne i void poprawiony olo
+
